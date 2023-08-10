@@ -303,11 +303,6 @@ class SPSheet extends Component {
                 {...(!dragTopOnly && panResponder?.panHandlers)}
                 style={[
                   styles.container,
-                  {
-                    height: height,
-                    // transform: [{translateX: pan.x}, {translateY: pan.y}],
-                    bottom: marginBottom,
-                  },
                   customStyles.container,
                 ]}
             >
