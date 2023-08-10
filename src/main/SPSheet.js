@@ -305,7 +305,7 @@ class SPSheet extends Component {
                   styles.container,
                   {
                     height: height,
-                    transform: [{translateX: pan.x}, {translateY: pan.y}],
+                    // transform: [{translateX: pan.x}, {translateY: pan.y}],
                     bottom: marginBottom,
                   },
                   customStyles.container,
