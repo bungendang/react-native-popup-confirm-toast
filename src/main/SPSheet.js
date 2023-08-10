@@ -299,7 +299,7 @@ class SPSheet extends Component {
                 }
               }}
           >
-            <Animated.View
+            <View
                 {...(!dragTopOnly && panResponder?.panHandlers)}
                 style={[
                   styles.container,
@@ -323,7 +323,7 @@ class SPSheet extends Component {
                     <BodyComponentElement {...this.props} />
                 ) : null
               }
-            </Animated.View>
+            </View>
           </View>
         </Animated.View>
 

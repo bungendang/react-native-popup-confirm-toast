@@ -43,5 +43,8 @@
   "license": "ISC",
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.65.2"
+  },
+  "dependencies": {
+    "react-native-popup-confirm-toast": "https://github.com/bungendang/react-native-popup-confirm-toast.git#selectable"
   }
 }
